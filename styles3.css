@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 68, 71);
+    /*  rgb(39, 68, 71) */
+     /* background-color: rgb(106, 150, 154); */
+  }
+
+h3 {
+    color: rgb(246, 248, 237);
+    font-family:palatino ;
+    
+  }
+
+h4 {
+    font-family: Palatino; 
+    font-size: 400%;
+    color: rgb(246, 248, 237);
+  }
+
+.container {
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+.topleft{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+.topleft2{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background-color: rgb(39, 68, 71);
+  }
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center; 
+    color:rgb(255, 255, 255); 
+    font-size: 500%; 
+    font-family:palatino ;
+  }
+
+.centered2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center; 
+    color:rgb(215, 215, 215); 
+    font-size: 250%; 
+    font-family:palatino ;
+    opacity: 75%;
+  }
+  
+.sidebit{
+    position:absolute;
+    left: 2%;
+    right: 60;
+    border: 5px solid honeydew;
+  }
+  
+.sidetext{
+    position: absolute;
+    left: 44% ;
+    right: 2%;
+    font-family: palatino;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+.sidebit3{
+    position:absolute;
+    left: 2%;
+    right: 60;
+    top: 475px;
+    border: 5px solid honeydew;
+  }
+  
+.sidetext3{
+    position: absolute;
+    left: 44% ;
+    right: 2%;
+    font-family: palatino;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+.lowerbit {
+    position: absolute;
+    top: 550px;
+    left: 8%;
+    color: rgb(255, 255, 255);
+  }
+
+.lowerbitimg {
+        position:absolute;
+        top: 550px;
+        right: 2%;
+        left: 40;
+        border: 5px solid honeydew
+        
+  }
+  
+.sidebit2 {
+        position:absolute;
+        top: 1050px;
+        left: 2%;
+        right: 60;
+        border: 5px solid honeydew;
+  }
+      
+.sidetext2 {
+        position: absolute;
+        top:1050px;
+        left: 42% ;
+        right: 2%;
+        font-family: palatino;
+        color: rgb(255, 255, 255);
+        text-align: center;
+  }
+
+  .cube1 {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    right: 67%;
+    background-color: rgb(184, 170, 91);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 4);
+  }
+
+  .cube2 {
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    right: 34%;
+    background-color: rgb(184, 170, 91);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 8);
+
+
+  }
+
+  .cube3 {
+    position: absolute;
+    top: 10%;
+    left: 67%;
+    right: 2%;
+    background-color: rgb(184, 170, 91);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 4);
+
+  }
+
+  .photog{
+    position:absolute;
+    top: 110%;
+    left: 0%;
+    right: 68;
+    padding-bottom: -150px;
+    border: 5px solid honeydew;
+  }
+
+  .eng{
+    position:absolute;
+    top: 110%;
+    left: 0%;
+    padding-bottom: -150px;
+    border: 5px solid honeydew;
+  }
+
+  .adv{
+    position:absolute;
+    top: 110%;
+    left: 0;
+    padding-bottom: -150px;
+    border: 5px solid honeydew;
+  }
+
+  .photogtxt{
+    position: absolute;
+    left: 44% ;
+    right: 2%;
+    font-family: palatino;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .tab {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    /*
+    border: 1px solid rgb(215, 215, 215); */
+   /* background-color:rgb(39, 68, 71); */
+    font-size: 40%;
+  }
+
+  .tab2 {
+    position: absolute;
+    top: 2%;
+    right: 8%;
+    font-size: 450; 
+    font-family:palatino; 
+    color: rgb(255,255,255);
+    /*
+    border: 1px solid rgb(215, 215, 215); */
+   /* background-color:rgb(39, 68, 71); */
+    font-size: 40%;
+  }
+
+
+    .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: #7d7c7c;
+  }
+  
+  .tab button.active {
+    background-color: #7d7c7c;
+  }
+  
+  .tabcontent {
+    display: none; 
+    /* border: px solid #ccc; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0%;
+  }
+
+  /* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  position:absolute;
+  margin-top: 380px;
+  color: white;
+  top:110px;
+  text-align: center;
+  left: 2%;
+  right: 2%;
+  
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+    /* Closable button inside the image */
+    .closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  margin-right: 15px;
+    }
+
+    div.scroll-container {
+    background-color: rgb(39, 68, 71);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    padding-left: 0%;
+  }
+  
+  div.scroll-container img {
+    padding: 2px;
+  }
+
+  /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:  rgb(39, 68, 71); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5d5a5a; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
